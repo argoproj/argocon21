@@ -96,4 +96,5 @@ module.exports = {
       __key: "pages",
     },
   ],
+  pathPrefix: "/argocon21"
 }

@@ -53,8 +53,7 @@ const IndexPage = ({ location }) => {
             </p>
 
             <div className="mt-8 space-y-4 md:mt-8 md:space-x-4 md:space-y-0">
-              <Button
-                to={site.siteMetadata.social.github}
+              <Button                to="https://github.com/argoproj/argocon21.git"
                 type="primary"
                 label="Register"
               />
