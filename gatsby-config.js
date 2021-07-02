@@ -10,24 +10,16 @@ module.exports = {
     },
     navigation: [
       {
-        title: "Workflows",
+        title: "Register",
         url: "/workflows",
       },
       {
-        title: "ArgoCD",
-        url: "/gitops-cd",
+        title: "CFP",
+        url: "https://docs.google.com/forms/d/e/1FAIpQLSdDrKd-Jd_6T9xCMyRIqueOHOIMsxA5K6_KEoD_EUpM-78XKQ/viewform?usp=sf_link",
       },
       {
-        title: "Rollouts",
+        title: "Sponsor",
         url: "/rollouts",
-      },
-      {
-        title: "Events",
-        url: "/events",
-      },
-      {
-        title: "Blog",
-        url: "https://blog.argoproj.io",
       },
     ],
   },
@@ -79,22 +71,22 @@ module.exports = {
       },
       __key: "images",
     },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "content-pages",
-        path: "./content/pages/",
-      },
-      __key: "content-pages",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "members",
-        path: "./content/members/",
-      },
-      __key: "members",
-    },
+    // {
+    //   resolve: "gatsby-source-filesystem",
+    //   options: {
+    //     name: "content-pages",
+    //     path: "./content/pages/",
+    //   },
+    //   __key: "content-pages",
+    // },
+    // {
+    //   resolve: "gatsby-source-filesystem",
+    //   options: {
+    //     name: "members",
+    //     path: "./content/members/",
+    //   },
+    //   __key: "members",
+    // },
     {
       resolve: "gatsby-source-filesystem",
       options: {
