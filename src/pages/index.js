@@ -53,7 +53,8 @@ const IndexPage = ({ location }) => {
             </p>
 
             <div className="mt-8 space-y-4 md:mt-8 md:space-x-4 md:space-y-0">
-              <Button                to="https://github.com/argoproj/argocon21.git"
+              <Button                
+                to="https://www.eventbrite.com/e/argocon-tickets-162063240515"
                 type="primary"
                 label="Register"
               />
@@ -61,6 +62,11 @@ const IndexPage = ({ location }) => {
                 to="https://docs.google.com/forms/d/e/1FAIpQLSdDrKd-Jd_6T9xCMyRIqueOHOIMsxA5K6_KEoD_EUpM-78XKQ/viewform?usp=sf_link"
                 type="secondary"
                 label="Submit a talk"
+              />
+              <Button
+                to="https://forms.gle/mTDGbeTP2XyZYRm68"
+                type="secondary"
+                label="Sponsor"
               />
             </div>
           </div>

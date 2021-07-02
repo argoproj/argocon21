@@ -11,7 +11,7 @@ module.exports = {
     navigation: [
       {
         title: "Register",
-        url: "/workflows",
+        url: "https://www.eventbrite.com/e/argocon-tickets-162063240515",
       },
       {
         title: "CFP",
@@ -19,7 +19,7 @@ module.exports = {
       },
       {
         title: "Sponsor",
-        url: "/rollouts",
+        url: "https://forms.gle/mTDGbeTP2XyZYRm68",
       },
     ],
   },
