@@ -36,7 +36,7 @@ const IndexPage = ({ location }) => {
     <Layout location={location}>
       <Seo
         title="ArgoCon 2021"
-        description="ArgoCon 2021 is happening in San Francisco on December 8th. Register now!"
+        description="ArgoCon 2021 is happening virtually on December 8th. Register now!"
         url={location.href}
         image={thumbnail}
       />
@@ -49,7 +49,7 @@ const IndexPage = ({ location }) => {
             </h1>
 
             <p className="text-2xl md:pr-12 xl:pr-36 2xl:pr-48">
-              San Francisco Live & Virtual<br />December 8th, 2021
+              Virtual<br />December 8th, 2021
             </p>
 
             <div className="mt-8 space-y-4 md:mt-8 md:space-x-4 md:space-y-0">
