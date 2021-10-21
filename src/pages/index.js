@@ -3,11 +3,12 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Grid } from "../components/ui/grid"
-// import { Grid, Container } from "../components/ui/grid"
+import { Container } from "../components/ui/grid"
 // import FeaturedMembers from "../components/featured-members"
 import Button from "../components/ui/button"
 // import Maintainers from "../components/maintainers"
 // import Features from "../components/features"
+import Speakers from "../components/speakers"
 import HeroWrapper from "../components/ui/hero-wrapper"
 // import HeartIcon from "../svg/heart.svg"
 import Pipes from "../components/ui/pipes"
@@ -59,11 +60,6 @@ const IndexPage = ({ location }) => {
                 label="Register"
               />
               <Button
-                to="https://docs.google.com/forms/d/e/1FAIpQLSdDrKd-Jd_6T9xCMyRIqueOHOIMsxA5K6_KEoD_EUpM-78XKQ/viewform?usp=sf_link"
-                type="secondary"
-                label="Submit a talk"
-              />
-              <Button
                 to="https://forms.gle/mTDGbeTP2XyZYRm68"
                 type="secondary"
                 label="Sponsor"
@@ -80,7 +76,133 @@ const IndexPage = ({ location }) => {
         <HostedBy className="lg:mt-16 2xl:mt-40" />
       </HeroWrapper>
 <p>&nbsp;</p>
+
+    <section className="container pt-8 md:pt-16 2xl:pt-24 overflow-hidden">
+        <h2 className="text-center">
+          Speakers
+        </h2>        
+
+        <div className="pt-4 pb-24 md:pb-32 md:pt-10">
+          <Grid xs={2} sm={3} lg={4} xl={6}>
+            <Speakers />
+          </Grid>
+        </div>
+
+    </section>
+
+    <section className="container p-8 md:p-16 2xl:p-24 overflow-hidden">
+      <h2 className="text-center">
+        Schedule
+      </h2>
+
+      <div className="w-full mb-4 pt-2 md:pt-4 2xl:pt-6 bg-green-400">
+        <h3 className="pl-2 md:pl-4 2xl:pl-6">Combined Track</h3>
+        
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Keynote</h4>
+          Pratik Wadher, Intuit
+        </div>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Argo-based service delivery for multi-tenant, multi region clusters at Adobe</h4>
+          Aya Ivtsan, Adobe
+        </div>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Deployments on the Edge using Argo CD & Workflows and K3s</h4>
+          Sergio Méndez, Yalo
+        </div>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">How Scalable is Argo-Rollouts: A Cloud Operator’s Perspective</h4>
+          Hui Kang, Salesforce
+        </div>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Keynote</h4>
+          Redhat
+        </div>
+
+      </div>
+      
+      <div className="w-full md:w-1/2 pt-2 md:pt-4 2xl:pt-6 mb-4 bg-blue-600 md:float-left border border-white">
+        <h3 className="pl-2 md:pl-4 2xl:pl-6 text-white">Argo Workflows/Events</h3>
+        
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Maintainer Update</h4>
+          Alex Collins, Intuit
+        </div>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Bridging into Python Ecosystem with Cloud-Native Distributed Machine Learning Pipelines</h4>
+          Yuan Tang, Akuity
+        </div>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Building Medical Grade AI with Argo Workflows</h4>
+          Omri Fima, Diagnostic Robostics
+        </div>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Processing petabytes in Python with Argo Workflows & Dask</h4>
+          J.P. Zivalich, Pipekit
+        </div>
+      
+      </div>
+
+
+      <div className="w-full md:w-1/2 pt-2 md:pt-4 2xl:pt-6 mb-4 bg-purple-600 md:float-left border border-white">
+        <h3 className="pl-2 md:pl-4 2xl:pl-6 text-white">Argo CD/Rollouts</h3>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Maintainer Update</h4>
+          Jesse Suen, Akuity
+        </div>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Argo CD Production Best Practices</h4>
+          Alexander Matyushentsev, Intuit
+        </div>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Debugging Argo Canary Rollouts with Prometheus and OpenTelemetry</h4>
+          Anais Urlichs, Civo
+        </div>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Deploying Cluster Addons at Scale using ApplicationSets</h4>
+          Venkata Gunapati, Intuit
+        </div>
+
+      </div>
+
+      <div className="clear-both w-full mb-4 pt-2 md:pt-4 2xl:pt-6 bg-green-400">
+        <h3 className="pl-2 md:pl-4 2xl:pl-6">Combined Track</h3>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Argo CD and Stateful Applications - Tips and Tricks!</h4>
+          Christian Hernandez, Redhat
+        </div>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Cloud-native CI/CD via ArgoCD and Workflows in Multi-Region & Muti-cell environments</h4>
+          Edgar Magana, Splunk
+        </div>
+
+        <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
+          <h4 className="text-xl">Keynote: Taking an Open GitOps Approach to Building and Delivering Software</h4>
+          Dan Garfield, Codefresh
+        </div>
+
+      </div>
+
+      Note: Schedule is subject to change.
+    </section>
+
+    <section className="container pt-8 md:pt-16 2xl:pt-24 overflow-hidden"></section>
     </Layout>
+
+    
 
   )
 }
