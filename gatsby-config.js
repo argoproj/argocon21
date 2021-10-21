@@ -14,10 +14,6 @@ module.exports = {
         url: "https://www.eventbrite.com/e/argocon-tickets-162063240515",
       },
       {
-        title: "CFP",
-        url: "https://docs.google.com/forms/d/e/1FAIpQLSdDrKd-Jd_6T9xCMyRIqueOHOIMsxA5K6_KEoD_EUpM-78XKQ/viewform?usp=sf_link",
-      },
-      {
         title: "Sponsor",
         url: "https://forms.gle/mTDGbeTP2XyZYRm68",
       },
@@ -70,6 +66,14 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "speakers",
+        path: "./content/speakers/",
+      },
+      __key: "speakers",
     },
     // {
     //   resolve: "gatsby-source-filesystem",
