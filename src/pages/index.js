@@ -15,6 +15,10 @@ import Pipes from "../components/ui/pipes"
 import ArgoHero from "../components/ui/argo-hero"
 import thumbnail from "../images/thumbnails/home.png"
 import HostedBy from "../components/hostedby"
+import Talk from "../components/ui/talk-card"
+// import Talks from "../components/talks"
+
+import AlexC from "../../content/speakers/alex-collins/alex-collins.mdx"
 
 const IndexPage = ({ location }) => {
   const { site } = useStaticQuery(
@@ -193,6 +197,12 @@ const IndexPage = ({ location }) => {
           <h4 className="text-xl">Keynote: Taking an Open GitOps Approach to Building and Delivering Software</h4>
           Dan Garfield, Codefresh
         </div>
+
+        <Talk
+          talk="This is a great talk"
+          name={AlexC}
+          company="Acme Great"
+        />
 
       </div>
 
