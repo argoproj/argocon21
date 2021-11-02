@@ -10,6 +10,14 @@ module.exports = {
     },
     navigation: [
       {
+        title: "Speakers",
+        url: "#speakers",
+      },
+      {
+        title: "Schedule",
+        url: "#schedule",
+      },
+      {
         title: "Register",
         url: "https://www.eventbrite.com/e/argocon-tickets-162063240515",
       },

@@ -45,7 +45,7 @@ const IndexPage = ({ location }) => {
       <HeroWrapper bg="dark">
         <Grid lg={2} alignY="center">
           <div className="relative z-10 text-white">
-            <h1 className="pr-12 xl:pr-12 text-5xl lg:text-7xl 2xl:pr-0 2xl:text-8xl">
+            <h1 className="pr-12 xl:pr-12 text-5xl lg:text-7xl 2xl:pr-0 2xl:text-8xl" id="home">
               ArgoCon <span className="text-primary">'21</span>
             </h1>
 
@@ -78,7 +78,7 @@ const IndexPage = ({ location }) => {
 <p>&nbsp;</p>
 
     <section className="container pt-8 md:pt-16 2xl:pt-24 overflow-hidden">
-        <h2 className="text-center">
+        <h2 className="text-center" id="speakers">
           Speakers
         </h2>        
 
@@ -91,7 +91,7 @@ const IndexPage = ({ location }) => {
     </section>
 
     <section className="container p-8 md:p-16 2xl:p-24 overflow-hidden">
-      <h2 className="text-center">
+      <h2 className="text-center" id="schedule">
         Schedule
       </h2>
 
@@ -190,8 +190,8 @@ const IndexPage = ({ location }) => {
         </div>
 
         <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
-          <h4 className="text-xl">Keynote: Taking an Open GitOps Approach to Building and Delivering Software</h4>
-          Dan Garfield, Codefresh
+          <h4 className="text-xl">Keynote</h4>
+          Dan Garfield, & Raziel Tabib, Codefresh
         </div>
 
       </div>
