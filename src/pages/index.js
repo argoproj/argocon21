@@ -145,7 +145,7 @@ const IndexPage = ({ location }) => {
 
         <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
           <h4 className="text-xl">Processing petabytes in Python with Argo Workflows & Dask</h4>
-          J.P. Zivalich, Pipekit
+          J.P. Zivalich, Pipekit & Severin Ryberg, ACCURE Battery Intelligence
         </div>
       
       </div>
