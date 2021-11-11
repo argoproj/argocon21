@@ -120,7 +120,7 @@ const IndexPage = ({ location }) => {
 
         <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
           <h4 className="text-xl">Keynote</h4>
-          Redhat
+          Red Hat
         </div>
 
       </div>
@@ -181,7 +181,7 @@ const IndexPage = ({ location }) => {
 
         <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
           <h4 className="text-xl">Argo CD and Stateful Applications - Tips and Tricks!</h4>
-          Christian Hernandez, Redhat
+          Christian Hernandez, Red Hat
         </div>
 
         <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
