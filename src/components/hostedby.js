@@ -1,14 +1,8 @@
-import * as React from "react"
+ import * as React from "react"
 import classNames from "classnames"
-// import Adobe from "../svg/featured/adobe.svg"
-// import Nvidia from "../svg/featured/nvidia.svg"
-// import Tesla from "../svg/featured/tesla.svg"
-// import Google from "../svg/featured/google.svg"
+import Akuity from "../svg/featured/akuity.svg"
 import Redhat from "../svg/featured/redhat.svg"
-// import Wordpress from "../svg/featured/wordpress.svg"
-// import Ticketmaster from "../svg/featured/ticketmaster.svg"
 import Codefresh from "../svg/featured/codefresh.svg"
-// import Redhat from "../../content/members/redhat/redhat.svg"
 import Intuit from "../svg/featured/intuit.svg"
 
 const HostedBy = ({ className }) => {
@@ -24,6 +18,7 @@ const HostedBy = ({ className }) => {
       </p>
 
       <div className="flex flex-wrap items-center justify-center">
+        <Akuity className="h-6 w-auto mb-8 mx-4 md:mx-7" />
         <Intuit className="h-6 w-auto mb-8 mx-4 md:mx-7" />
         <Codefresh className="h-6 w-auto mb-8 mx-4 md:mx-7" />
         <Redhat className="h-7 w-auto mb-8 mx-4 md:mx-7" />
