@@ -10,7 +10,7 @@ import Button from "../components/ui/button"
 // import Features from "../components/features"
 import Speakers from "../components/speakers"
 import HeroWrapper from "../components/ui/hero-wrapper"
-// import HeartIcon from "../svg/heart.svg"
+// import HeartIcon from "../svg/heart.svg`}
 import Pipes from "../components/ui/pipes"
 import ArgoHero from "../components/ui/argo-hero"
 import thumbnail from "../images/thumbnails/home.png"
@@ -259,6 +259,32 @@ const IndexPage = ({ location }) => {
       </div>
 
       Note: Schedule is subject to change.
+    </section>
+
+    <section id="sponsors" className="container pt-8 md:pt-16 2xl:pt-24 overflow-hidden">
+
+        <div className="pt-4 pb-24 md:pb-32 md:pt-10 text-center mx-auto">
+          <h3 className="text-5xl font-normal mb-12">Diamond Sponsors</h3>
+          <div className="flex flex-wrap mb-24 place-items-center">
+            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://akuity.io/" target="_blank" rel="noreferrer"><img className="h-16" src={`/logos/akuity.svg`} alt="Akuity" loading="lazy" /></a></div>
+            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://codefresh.io/" target="_blank" rel="noreferrer"><img className="h-16" src={`/logos/codefresh.svg`} alt="Codefresh" loading="lazy" /></a></div>
+            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://www.intuit.com/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/intuit.svg`} alt="Intuit" loading="lazy" /></a></div>
+            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://www.redhat.com/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/redhat.svg`} alt="Red Hat" loading="lazy" /></a></div>
+          </div>
+          <h3 className="text-5xl font-normal mb-12">Gold Sponsors</h3>
+          <div className="flex flex-wrap mb-24 place-items-center">
+            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://www.blackrock.com/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/blackrock.svg`} alt="BlackRock" loading="lazy" /></a></div>
+            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://harness.io/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/harness.svg`} alt="Harness" loading="lazy" /></a></div>
+            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="http://pipekit.io/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/pipekit.svg`} alt="Pipekit" loading="lazy" /></a></div>
+            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://shipa.io/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/shipa.svg`} alt="Shipa" loading="lazy" /></a></div>
+            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://www.spectrocloud.com/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/spectro-cloud.svg`} alt="Spectro Cloud" loading="lazy" /></a></div>
+          </div>
+          <h3 className="text-5xl font-normal mb-12">Silver Sponsors</h3>
+          <div className="flex flex-wrap place-items-center">
+            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://www.paperspace.com/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/paperspace.png`} alt="Paperspace" loading="lazy" /></a></div>
+          </div>
+        </div>
+
     </section>
 
     <section className="container pt-8 md:pt-16 2xl:pt-24 overflow-hidden"></section>

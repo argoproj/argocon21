@@ -22,8 +22,8 @@ module.exports = {
         url: "https://www.eventbrite.com/e/argocon-tickets-162063240515",
       },
       {
-        title: "Sponsor",
-        url: "https://forms.gle/mTDGbeTP2XyZYRm68",
+        title: "Sponsors",
+        url: "#sponsors",
       },
     ],
   },
