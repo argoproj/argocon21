@@ -266,7 +266,7 @@ const IndexPage = ({ location }) => {
         <div className="pt-4 pb-24 md:pb-32 md:pt-10 text-center mx-auto">
           <h3 className="text-5xl font-normal mb-12">Diamond Sponsors</h3>
           <div className="flex flex-wrap mb-24 place-items-center">
-            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://akuity.io/" target="_blank" rel="noreferrer"><img className="h-16" src={`/logos/akuity.svg`} alt="Akuity" loading="lazy" /></a></div>
+            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://akuity.io/" target="_blank" rel="noreferrer"><img className="h-16" src={`/logos/akuity2.svg`} alt="Akuity" loading="lazy" /></a></div>
             <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://codefresh.io/" target="_blank" rel="noreferrer"><img className="h-16" src={`/logos/codefresh.svg`} alt="Codefresh" loading="lazy" /></a></div>
             <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://www.intuit.com/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/intuit.svg`} alt="Intuit" loading="lazy" /></a></div>
             <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://www.redhat.com/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/redhat.svg`} alt="Red Hat" loading="lazy" /></a></div>
