@@ -115,7 +115,7 @@ const IndexPage = ({ location }) => {
 
         <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
           <h4 className="text-xl">How Scalable is Argo-Rollouts: A Cloud Operator’s Perspective</h4>
-          Hui Kang, Salesforce
+          Hui Kang, Salesforce & Jesse Suen, Akuity
         </div>
 
         <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
