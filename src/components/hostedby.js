@@ -18,7 +18,6 @@ const HostedBy = ({ className }) => {
       </p>
 
       <div className="flex flex-wrap items-center justify-center">
-        <Akuity className="h-6 w-auto mb-8 mx-4 md:mx-7" />
         <Intuit className="h-6 w-auto mb-8 mx-4 md:mx-7" />
         <Codefresh className="h-6 w-auto mb-8 mx-4 md:mx-7" />
         <Redhat className="h-7 w-auto mb-8 mx-4 md:mx-7" />
