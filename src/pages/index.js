@@ -294,3 +294,4 @@ const IndexPage = ({ location }) => {
 }
 
 export default IndexPage
+
