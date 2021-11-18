@@ -275,7 +275,7 @@ const IndexPage = ({ location }) => {
           <div className="flex flex-wrap mb-24 place-items-center">
             <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://www.blackrock.com/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/blackrock.svg`} alt="BlackRock" loading="lazy" /></a></div>
             <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://harness.io/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/harness.svg`} alt="Harness" loading="lazy" /></a></div>
-            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="http://pipekit.io/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/pipekit.svg`} alt="Pipekit" loading="lazy" /></a></div>
+            <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://pipekit.io/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/pipekit.svg`} alt="Pipekit" loading="lazy" /></a></div>
             <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://shipa.io/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/shipa.svg`} alt="Shipa" loading="lazy" /></a></div>
             <div className="w-48 flex-shrink-0 mx-auto px-4 mb-4"><a className="inline-block" href="https://www.spectrocloud.com/" target="_blank" rel="noreferrer"><img className="h-16" src={`logos/spectro-cloud.svg`} alt="Spectro Cloud" loading="lazy" /></a></div>
           </div>
