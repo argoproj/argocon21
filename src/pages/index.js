@@ -233,7 +233,7 @@ const IndexPage = ({ location }) => {
 
         <div className="w-full p-2 md:p-4 2xl:p6 bg-white border">
           <h4 className="text-xl mb-0">2:35 PM - How Scalable is Argo-Rollouts: A Cloud Operator’s Perspective</h4>
-          <p className="text-lg mt-3">Hui Kang, Salesforce</p>
+          <p className="text-lg mt-3">Hui Kang, Salesforce & Jesse Suen, Akuity</p>
           <details>
             <summary className="mt-3 cursor-pointer">Details</summary>
             <p className="mt-3">Argo-Rollouts enables advanced deployment capabilities to Kubernetes such as blue-green/canary update strategy, automated rollback and promotion, configurable update steps, and fine-grained, weighted traffic control. As Argo-Rollouts reaches its first major release of v1.0, companies are working rapidly to adopt Argo-Rollouts into their continuous deployment infrastructure. Further, work is underway to prove Argo-Rollouts’ scalability.</p>
