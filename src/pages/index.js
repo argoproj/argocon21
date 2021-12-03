@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -33,7 +33,12 @@ const IndexPage = ({ location }) => {
     `
   )
 
+  useEffect(() => {
+    window.location.href = "https://www.techstrongevents.com/argocon21/1678035";
+  }, []);
+
   return (
+
     <Layout location={location}>
       <Seo
         title="ArgoCon 2021"
@@ -42,7 +47,7 @@ const IndexPage = ({ location }) => {
         image={thumbnail}
       />
 
-      <HeroWrapper bg="dark">
+        <HeroWrapper bg="dark">
         <Grid lg={2} alignY="center">
           <div className="relative z-10 text-white">
             <h1 className="pr-12 xl:pr-12 text-5xl lg:text-7xl 2xl:pr-0 2xl:text-8xl" id="home">
